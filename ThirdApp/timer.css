@@ -1,0 +1,24 @@
+body{
+    
+
+}
+.maincontainer{
+    
+}
+image
+{
+   position:absolute;
+   
+}
+.maincontainer
+{
+    width:40%;
+    height:375px;
+    margin-left:55%;
+    background-color:midnightblue;
+    border-radius: 30px;
+    margin-top: -425px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
