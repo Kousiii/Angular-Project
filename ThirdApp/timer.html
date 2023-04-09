@@ -11,11 +11,14 @@
         <div class="container">
             <img id="bg" class="image" src="clock1.jpg" >
         </div>
-        <div class="timer">
-           <center>
-            <button onClick="timer.start(1000)">Start</button> 
-            <button onClick="timer.stop()">Stop</button> 
-           </center>
+        <div class="buttons">      
+            <button class="start" onClick="start()">Start</button> 
+            <button class="stop" onClick="stop()">Stop</button> 
         </div>
+        <div class="time">
+            <p id="notify"></p>
+            <p id="timer" style.display="block"> </p>
+            <p id="hms">Hours -  Minutes - Seconds</p> 
+             </div>
     </body>
 </html>
