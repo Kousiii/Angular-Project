@@ -5,7 +5,7 @@ var seconds= 0;
 var run=0;
 var pause=0;
 // console.log(hours+":"+minutes+":"+seconds);
-function startTimer(){
+function start(){
     run++;
     if(run==1){
         setInterval(function(){
@@ -24,7 +24,7 @@ function startTimer(){
         alert("Timer is already running !");
     }
 }
-function stopTimer(){
+function stop(){
     current_hour=hours;
     current_minute=minutes;
     current_second=seconds;
