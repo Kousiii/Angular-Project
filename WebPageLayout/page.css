@@ -4,7 +4,7 @@ body
 }
 .first
 {
-    height:80px;
+    height:90px;
     width:100%;
     background-color:rgb(69, 58, 101);
     position: absolute;
@@ -28,7 +28,7 @@ body
     font-size: x-large;
     position: absolute;
     left: 10%;
-    top: 5px;
+    top: 2px;
 }
 a{
     text-decoration: none;
@@ -43,20 +43,27 @@ a{
     text-align: right;
 }
 .third {
-    height: 300px;
+    height: 200px;
     width: 100%;
     background-color: rgb(0, 255, 33);
-    bottom:30px;
+    bottom:2px;
     left:0%; 
-    margin-top:320px;
+    right:0%;
+    margin-top:400px;
+    position:absolute;
+    align-items: center;
+    
 }
 .second
 {
     width:100%;
-    height:55%;
+    height:58%;
+    bottom:166px;
+    left:0%;
+    right:0%;
     position:absolute;
     align-items:center;
-    margin-top: -240px;
+    margin-top: -230px;
 
 }
 
@@ -65,4 +72,117 @@ a{
 width:100%;
 height:100%;
 display:flex
+}
+.column
+{
+    color: white;
+    display: inline;
+    margin-right: 30px;
+    margin-top:300px;
+    align-items: center;
+}
+#a1
+{
+    color: white;
+    display: inline;  
+    margin-right: 30px;
+    position:absolute;
+    left:21%;
+    top:18%;
+    font-size:xx-large;
+    font-family:'Times New Roman', Times, serif;
+}
+#a2
+{
+    color: white;
+    display: inline;
+    margin-right: 30px;  
+    position:absolute;
+    left:46%;
+    top:18%;
+    font-size:xx-large;
+    font-family:'Times New Roman', Times, serif;
+}
+#a3
+{
+    color: white;
+    display: inline;
+    margin-right: 30px;
+    position:absolute;
+    left:74%;
+    top:18%;
+    font-size:xx-large;
+    font-family:'Times New Roman', Times, serif;
+}
+.twitter
+{
+    width: 40px;
+    height: 40px;
+    position:absolute;
+    left:17%;
+    top:20%;
+    
+}
+.fb
+{
+    width: 40px;
+    height: 40px;
+    position:absolute;
+    left:42%;
+    top:20%;
+}
+.google
+{
+    width: 40px;
+    height: 40px;
+    position:absolute;
+    left:70%;
+    top:20%;
+}
+#t1{
+    color: white;
+    display: inline;  
+    margin-right: 30px;
+    position:absolute;
+    left:21%;
+    top:31%;
+    font-size:medium;
+    font-family:'Times New Roman', Times, serif;
+    width: 170px;
+    height: 20px;
+
+}
+#f2{
+    color: white;
+    display: inline;
+    margin-right: 30px;  
+    position:absolute;
+    left:46%;
+    top:31%;
+    font-size:medium;
+    font-family:'Times New Roman', Times, serif;
+    width: 190px;
+    height: 20px;
+}
+
+#g3{
+    color: white;
+    display: inline;
+    margin-right: 30px;
+    position:absolute;
+    left:74%;
+    top:31%;
+    font-size:medium;
+    font-family:'Times New Roman', Times, serif;
+    width: 170px;
+    height: 20px;
+}
+.text
+{
+    position: absolute;
+    top: 20px;
+  left: 35px;
+  color: white;
+  font-size: xx-large;
+  font-family: 'Times New Roman', Times, serif;
 }
