@@ -7,6 +7,7 @@ var pause=0;
 // console.log(hours+":"+minutes+":"+seconds);
 
 function start(){
+    document.getElementById("tt").style.display="none";
     document.getElementById("timer").style.display="block";
     run++;
     if(run==1){
@@ -27,11 +28,13 @@ function start(){
         alert("Timer is already running !");
     }
 }
-function stop(){
+
+function stop()
+{
     current_hour=hours;
     current_minute=minutes;
     current_second=seconds;
     document.getElementById("notify").innerHTML="Timer stopped at "+current_hour+":"+current_minute+":"+current_second;
     alert("Timer stopped at "+current_hour+":"+current_minute+":"+current_second);
     location.reload();
-    }
+}
