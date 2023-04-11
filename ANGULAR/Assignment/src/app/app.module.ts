@@ -3,14 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AboutComponent } from './about/about.component';
-import { ServiceBoxComponent } from './service-box/service-box.component';
+import { FirstblockComponent } from './firstblock/firstblock.component';
+import { SliderComponent } from './slider/slider.component';
+import { LastpartComponent } from './lastpart/lastpart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AboutComponent,
-    ServiceBoxComponent
+    FirstblockComponent,
+    SliderComponent,
+    LastpartComponent
   ],
   imports: [
     BrowserModule,
