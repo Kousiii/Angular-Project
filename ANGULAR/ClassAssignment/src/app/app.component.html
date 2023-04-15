@@ -1,0 +1,16 @@
+<app-header></app-header>
+<app-content></app-content>
+<div id="last">
+    <h3>OUR PRODUCT</h3>
+<div class="productalign">
+    <!-- <div  class="imgg" *ngFor="let x of icon">
+        <img [src]='x'>
+    </div> -->
+    
+    <app-pagelast *ngFor="let x of names ;let y=index"
+      [names]="x" [para]="description[y]"></app-pagelast>
+
+    
+</div> 
+</div>
+
