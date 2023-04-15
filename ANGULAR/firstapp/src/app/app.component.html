@@ -1,15 +1,65 @@
-<h1>{{title}}</h1>
+<!-- <h1>{{title}}</h1>
 
 <app-about></app-about>
-
-
 <div id="services">
     <h3>Our Services</h3>
     <app-service-box></app-service-box>
     <app-service-box></app-service-box>
     <app-service-box></app-service-box>
+   </div> 
+   
+   <app-service-box *ngFor="let x of services"></app-service-box>
+   <div id="footer">
+      <h3> &copy; All copyrights reserved. ABC limited 2023</h3>
+   </div> -->
+
+   <!-- <h1 [ngStyle]="themes[0].h1">{{title}}</h1>
+
+   <app-about></app-about>
+   
+   <div id="services">
+   <div id="services" [ngStyle]="themes[0].services">
+    <h3>Our Services</h3>
+   
+    <app-service-box *ngFor="let x of services"></app-service-box>
+   
+   
    </div>
    
    <div id="footer">
+   <div id="footer" [ngStyle]="themes[0].footer">
       <h3> &copy; All copyrights reserved. ABC limited 2023</h3>
-   </div>
+   </div> -->
+
+   <div id="header" [style.fontFamily]="currentfont" >
+      <h1 [ngStyle]="currentheme.h1">{{title}}
+      </h1>
+      <div id="links">
+         <select [(ngModel)]="currentfont" [style.marginRight]="'50px'">
+            <option>Arial</option>
+            <option>Courier</option>
+            <option>Consolas</option>
+            <option>Comic Sans MS</option>
+         </select>
+         <a (click)="changeTheme('theme1')">Theme1</a>
+         <a (click)="changeTheme('theme2')">Theme2</a>
+      </div>
+      </div>
+      
+      <app-about 
+       [content]="dataitems.aboutus" 
+       [servicelist]="dataitems.servicelist"></app-about>
+      
+      <div id="services" [ngStyle]="currentheme.services">
+       <h3>Our Services</h3>
+      
+       <!-- <app-service-box *ngFor="let x of services"></app-service-box> -->
+       <app-service-box *ngFor="let x of services;let y=index" 
+      [title]="x" [description]="descriptions[y]"></app-service-box>
+      
+      
+      </div>
+      
+      <div id="footer" [ngStyle]="currentheme.footer">
+         <h3> &copy; All copyrights reserved. ABC limited 2023</h3>
+      </div>

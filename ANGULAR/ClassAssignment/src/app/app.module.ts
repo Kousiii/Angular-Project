@@ -3,20 +3,22 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AboutComponent } from './about/about.component';
-import { ServiceBoxComponent } from './service-box/service-box.component';
-import { FormsModule } from '@angular/forms';
+import { HeaderComponent } from './header/header.component';
+
+import { ContentComponent } from './content/content.component';
+import { PagelastComponent } from './pagelast/pagelast.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AboutComponent,
-    ServiceBoxComponent
+    HeaderComponent,
+    
+    ContentComponent,
+         PagelastComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    FormsModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

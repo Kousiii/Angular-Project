@@ -1,0 +1,34 @@
+
+.bg
+{
+     width:100%;
+     height: 280px;
+     background-image: url("http://localhost/cls1.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     margin: 0px;
+}
+h1
+{
+    
+    color:black;
+    text-align: center;
+    padding-top:60px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:0px;
+}
+p{
+    width:40%;
+    text-align: center;
+    padding-left:380px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button
+{
+height:40px;
+width:150px;
+margin-left: 43%;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: medium;
+font-weight:bold;
+}
