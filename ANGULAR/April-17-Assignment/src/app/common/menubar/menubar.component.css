@@ -1,0 +1,40 @@
+.menu-bar{
+    background-color: rgb(118, 75, 146) !important;
+    color: whitesmoke ! important;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 10px;
+    font-family:cursive;
+}
+img{
+    width:40px;
+    height:40px;
+    margin-left:150px;
+}
+ul{
+    margin-left: 490px;
+}
+li {
+    float: left;
+    list-style-type: none;
+    margin-right:40px;
+    font-family:cursive;
+}
+
+a {
+    color: whitesmoke;
+    size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+    color: rgb(193, 183, 197)
+}
+
+a:active {
+    color: rgb(107, 68, 118);
+}

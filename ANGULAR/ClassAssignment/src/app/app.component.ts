@@ -10,7 +10,7 @@ export class AppComponent {
   title = 'ClassAssignment';
   producttitle=ProductName
   names:string[]=["SEO","BRANDING","LOGO"]
- // icon=["http://localhost/seo.png","http://localhost/brand.png","http://localhost/logo.png"]
+  icon:string[]=["http://localhost/seo.png","http://localhost/brand.png","http://localhost/logo.png"]
   description:string[]=
   [
     ProductName.seoPara,

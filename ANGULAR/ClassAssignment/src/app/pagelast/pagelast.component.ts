@@ -7,7 +7,7 @@ import {Component,Input} from '@angular/core';
 export class PagelastComponent {
   
   @Input() names:string=""
- // @Input() icon=""
+  @Input() icon:string=""
   @Input() para:string=""
   
 
