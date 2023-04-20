@@ -1,10 +1,11 @@
-.service-box{
+/* .service-box{
     float: left;
     width: 300px;
     height: 300px;
     box-sizing: border-box;
     box-shadow: 5px 5px 5px gray;
     margin: 30px;
+    
 }
 
 .image-holder{
@@ -18,13 +19,21 @@
 }
 
 .text{
-    height: 20%;
+    height: 30%;
     text-align: center;
-    background-color: black;
+    background-color: lightblue;
     text-shadow: 3px 3px 3px gray;
-    color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
     padding-top: 15px;
     box-sizing: border-box;
-}
+} */
+.example-card {
+    width: 300px;
+    margin-bottom: 10px;
+    float:left;
+    padding: 20px;
+    margin-left: 10px;
+    background-color: lightblue;
+  }

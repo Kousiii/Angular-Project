@@ -5,12 +5,14 @@ import { MaterialModule } from './material/material.module';
 import { HttpClientModule } from '@angular/common/http';
 import { MenuComponent } from './menu/menu.component';
 import { CardsComponent } from './menu/cards/cards.component';
+import { FilterPipe } from './pipes/filter.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    CardsComponent
+    CardsComponent,
+    FilterPipe
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,4 @@
-<div class="service-box">
+<!-- <div class="service-box">
  
     <div class="image-holder">
         <img src="http://localhost/{{product.image}}">
@@ -7,4 +7,15 @@
     <div class="text">
          {{product.name}}
     </div>
-</div>
+</div> -->
+<mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title-group>
+        <mat-card-title>{{product.name}}</mat-card-title>
+        <img mat-card-lg-image src="http://localhost/{{product.image}}" >
+      </mat-card-title-group>
+    </mat-card-header>
+    <mat-card-content>
+      {{product.price}}
+    </mat-card-content>
+  </mat-card>

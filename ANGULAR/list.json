@@ -48,40 +48,40 @@
             "type":"Groceries",
             "description":"Cheese spread is a processed food where one or more semi-hard or semi-soft cheeses are combined with other ingredients like vegetables, meat, fruits, seasonings, and spices, as well as ingredients, to enjoy on crackers or bread."
         },
-        {
-            "id":171,
-            "name":"Smart Tv",
-            "price":50000,
-            "image":"cheese.jpg",
-            "type":"Electronics",
-            "description":"Cheese spread is a processed food where one or more semi-hard or semi-soft cheeses are combined with other ingredients like vegetables, meat, fruits, seasonings, and spices, as well as ingredients, to enjoy on crackers or bread."
-        },
+      {
+        "id": 171,
+        "name": "Smart Tv",
+        "price": 50000,
+        "image": "tv.jpg",
+        "type": "Electronics",
+        "description": "Smart TVs are very much like smartphones; they stream entertainment straight to your TV via an internet connection. This means that you can watch all the latest films, box sets and play games on your smart TV without the need for an aerial, cable or separate streaming device. "
+      },
 
-        {
-            "id":181,
-            "name":"Mad About You-Perfume",
-            "price":1800,
-            "image":"cheese.jpg",
-            "type":"Cosmetics",
-            "description":"Cheese spread is a processed food where one or more semi-hard or semi-soft cheeses are combined with other ingredients like vegetables, meat, fruits, seasonings, and spices, as well as ingredients, to enjoy on crackers or bread."
-        },
+      {
+        "id": 181,
+        "name": "Mad About You-Perfume",
+        "price": 1800,
+        "image": "perfume.jpg",
+        "type": "Cosmetics",
+        "description": "Mad About You by Bath & Body Works is a Floral Fruity fragrance for women. Mad About You was launched in 2014. Top notes are Big Strawberry, Black Currant and Cassis; middle notes are Peony, Pink Jasmine and Lily; base notes are Patchouli, Vanilla, Musk."
+      },
 
-        {
-            "id":191,
-            "name":"Maggie",
-            "price":120,
-            "image":"cheese.jpg",
-            "type":"Groceries",
-            "description":"Cheese spread is a processed food where one or more semi-hard or semi-soft cheeses are combined with other ingredients like vegetables, meat, fruits, seasonings, and spices, as well as ingredients, to enjoy on crackers or bread."
-        },
-        {
-            "id":201,
-            "name":"Cheese Spread",
-            "price":345,
-            "image":"cheese.jpg",
-            "type":"Groceries",
-            "description":"Cheese spread is a processed food where one or more semi-hard or semi-soft cheeses are combined with other ingredients like vegetables, meat, fruits, seasonings, and spices, as well as ingredients, to enjoy on crackers or bread."
-        },
+      {
+        "id": 191,
+        "name": "Maggie",
+        "price": 120,
+        "image": "maggie.jpg",
+        "type": "Groceries",
+        "description": "Maggi Big Bazaar Combo -2 Minute Noodles Masala, 420 grams (Buy 1 Get 1, 2 Pieces) Promo Pack · Partner Offers. HUMARABAZAR. "
+      },
+      {
+        "id": 201,
+        "name": "The Wings of Fire",
+        "price": 345,
+        "image": "book.jpg",
+        "type": "Groceries",
+        "description": "The 'Wings of Fire' is one such autobiography by visionary scientist Dr. APJ Abdul Kalam, who from very humble beginnings rose to be the President of India. The book is full of insights, personal moments and life experiences of Dr. Kalam."
+      },
 
 
  
