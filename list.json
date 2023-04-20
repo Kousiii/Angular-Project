@@ -1,0 +1,52 @@
+{
+    "products":[
+        {
+            "id":111,
+            "name":"Air Conditioner",
+            "price":30000,
+            "image":"ac.jpg",
+            "type":"Electronics",
+            "description":"Air conditioning (often referred to as AC, A/C or air con) is a system used to cool down the temperature in an inside space by removing the existing heat and moisture from the room. Essentially, they work by taking warm air into a system and dispersing cold air, but there is much more to this process."
+        },
+        {
+            "id":121,
+            "name":"Apple Iphone 13 Pro",
+            "price":60000,
+            "image":"iphn.jpg",
+            "type":"Electronics",
+            "description":"The iPhone 13 Pro Max’s stellar cameras, 120Hz display and longer battery life add up to a practically perfect phone.The iPhone 13 Pro Max is water-resistant. It has a rating of “IP68” which means it's fully protected from dust and can handle being underwater for up to 30 minutes."
+        },
+        {
+            "id":131,
+            "name":"Eye Shadow",
+            "price":3700,
+            "image":"eyeshadow.jpg",
+            "type":"Cosmetics",
+            "description":"Eye shadow is a cosmetic applied primarily to the eyelids to attract attention to the wearer's eyes, making them stand out or look more attractive. Eye shadow can also be applied under the eyes, on the cheeks, or to brow bones."
+        },
+        {
+            "id":141,
+            "name":"Lipstick",
+            "price":1800,
+            "image":"lipstick.jpg",
+            "type":"Cosmetics",
+            "description":"Most lipstick is a waxy, slightly creamy substance in a stick that's tinted with red pigment that colors your lips. It's a cosmetic that dates back at least to medieval times, and probably even farther back than that. "
+        },
+        {
+            "id":151,
+            "name":"Origano",
+            "price":110,
+            "image":"origano.jpg",
+            "type":"Groceries",
+            "description":"Some of the most common uses of oregano include tomato-centric recipes, like pizza and pasta sauce, as well as olive oil-based dishes. Oregano is commonly combined with olive oil to create flavorful oregano oil, Italian vinaigrettes, and marinades for lamb, chicken, and beef dishes."
+        },
+        {
+            "id":161,
+            "name":"Cheese Spread",
+            "price":345,
+            "image":"cheese.jpg",
+            "type":"Groceries",
+            "description":"Cheese spread is a processed food where one or more semi-hard or semi-soft cheeses are combined with other ingredients like vegetables, meat, fruits, seasonings, and spices, as well as ingredients, to enjoy on crackers or bread."
+        }
+    ]
+}
