@@ -29,11 +29,18 @@
     padding-top: 15px;
     box-sizing: border-box;
 } */
-.example-card {
+.example-card 
+{
     width: 300px;
     margin-bottom: 10px;
     float:left;
     padding: 20px;
     margin-left: 10px;
     background-color: lightblue;
+}
+.text
+  {
+     font-size: medium;
+     text-align: right;
+     margin-top: 15px;
   }

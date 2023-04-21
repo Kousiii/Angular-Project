@@ -1,2 +1,8 @@
+<div class="head">
+    <select [(ngModel)]="type" class="opt-bar">
+        <option *ngFor="let option of options">{{option}}</option>
+    </select>
+    <h1><b>My-Zone</b></h1>
+</div>
 <h2>Available products in the store are....</h2>
-<app-cards *ngFor="let x of  productlist" [product]="x"></app-cards>
+<app-cards *ngFor="let x of  productlist|filter:type" [product]="x"></app-cards>

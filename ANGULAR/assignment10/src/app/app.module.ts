@@ -6,6 +6,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { MenuComponent } from './menu/menu.component';
 import { CardsComponent } from './menu/cards/cards.component';
 import { FilterPipe } from './pipes/filter.pipe';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FilterPipe } from './pipes/filter.pipe';
   imports: [
     BrowserModule,
     MaterialModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   
   ],
   providers: [],

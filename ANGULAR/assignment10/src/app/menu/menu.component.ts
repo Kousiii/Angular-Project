@@ -16,5 +16,13 @@ export class MenuComponent {
           }
         )
       }
+      options: string[]=[
+        "All",
+        "Electronics",
+        "Cosmetics",
+        "Groceries",
+        "Books"
+      ]
+      type:string="All"
 
 }

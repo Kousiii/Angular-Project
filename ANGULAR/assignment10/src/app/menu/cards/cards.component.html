@@ -15,7 +15,7 @@
         <img mat-card-lg-image src="http://localhost/{{product.image}}" >
       </mat-card-title-group>
     </mat-card-header>
-    <mat-card-content>
-      {{product.price}}
+    <mat-card-content class="text">
+      {{product.price | currency :'INR'}}
     </mat-card-content>
   </mat-card>
