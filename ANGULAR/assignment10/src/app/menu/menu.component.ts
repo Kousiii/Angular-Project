@@ -7,6 +7,8 @@ import { ProductService } from '../services/product.service';
   styleUrls: ['./menu.component.css']
 })
 export class MenuComponent {
+  min:number=0;
+  max:number=60000;
   productlist:any;
       constructor(private ps:ProductService){
         this.ps.getOrder().subscribe(

@@ -7,13 +7,15 @@ import { MenuComponent } from './menu/menu.component';
 import { CardsComponent } from './menu/cards/cards.component';
 import { FilterPipe } from './pipes/filter.pipe';
 import { FormsModule } from '@angular/forms';
+import { PricingPipe } from './pipes/pricing.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     CardsComponent,
-    FilterPipe
+    FilterPipe,
+    PricingPipe
   ],
   imports: [
     BrowserModule,

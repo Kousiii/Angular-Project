@@ -3,6 +3,14 @@
         <option *ngFor="let option of options">{{option}}</option>
     </select>
     <h1><b>My-Zone</b></h1>
+    <mat-slider class="slider" min="0" max="60000" step="5000">
+        <input [(value)]="min" matSliderStartThumb>
+        <input [(value)]="max" matSliderEndThumb>
+      </mat-slider>
+      <p>0</p>
+      <p id="amt">60000</p>
+     
+
 </div>
 <h2>Available products in the store are....</h2>
-<app-cards *ngFor="let x of  productlist|filter:type" [product]="x"></app-cards>
+<app-cards *ngFor="let x of  productlist|filter:type| pricing:min:max" [product]="x"></app-cards>

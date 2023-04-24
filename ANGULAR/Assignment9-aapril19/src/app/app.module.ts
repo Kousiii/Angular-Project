@@ -17,6 +17,7 @@ import { FeedbackBoxComponent } from './pages/testimonial/feedback-box/feedback-
 import { QuoteitPipe } from './pipes/quoteit.pipe';
 import { FormsModule } from '@angular/forms';
 import { TypefilterPipe } from './pipes/typefilter.pipe';
+import { EnquiryFormComponent } from './pages/home/enquiry-form/enquiry-form.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { TypefilterPipe } from './pipes/typefilter.pipe';
     ServiceBoxComponent,
     FeedbackBoxComponent,
     QuoteitPipe,
-    TypefilterPipe
+    TypefilterPipe,
+    EnquiryFormComponent
   ],
   imports: [
     BrowserModule,
@@ -39,6 +41,7 @@ import { TypefilterPipe } from './pipes/typefilter.pipe';
     MaterialModule,
     FormsModule,
     HttpClientModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
