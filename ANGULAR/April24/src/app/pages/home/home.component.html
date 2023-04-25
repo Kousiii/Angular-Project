@@ -1,0 +1,14 @@
+<div class="head">
+    <select [(ngModel)]="type" class="opt-bar">
+        <option *ngFor="let option of options">{{option}}</option>
+    </select>
+    <h1><b>Available Products are...</b></h1>
+    <mat-slider class="slider" min="0" max="60000" step="5000">
+        <input [(value)]="min" matSliderStartThumb>
+        <input [(value)]="max" matSliderEndThumb>
+      </mat-slider>
+      <p>0</p>
+      <p id="amt">60000</p>
+  </div>
+
+  <app-card-items *ngFor="let x of  productlist|filter:type| pricing:min:max" [product]="x"></app-card-items>
