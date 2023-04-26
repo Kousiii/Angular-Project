@@ -1,0 +1,46 @@
+.formbox{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    float: left;
+    width: 450px;
+    margin: 5px;
+    margin-right: 50px;
+    
+}
+
+.formbox h5{
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.formbox input[type="text"],.formbox input[type="email"]{
+    border: 2px solid rgb(0, 0, 0);
+    width: 400px;
+    margin: 10px;
+    height: 30px;
+    padding: 10px;
+    margin-left: 100px;
+}
+textarea{
+    width: 400px;
+    height: 250px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 100px;
+}
+
+#form{
+    margin-top: 30px;
+    padding: 30px;
+    background-color:lightblue;
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10%;
+    width:50%;
+    margin-left:20%;
+}
+
+li{
+    color: rgb(0, 0, 0);
+}

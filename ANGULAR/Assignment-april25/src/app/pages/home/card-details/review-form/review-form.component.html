@@ -1,0 +1,43 @@
+
+  <div class="rform">
+    <h2>Can you drop your review here.....</h2>
+   
+        <form  [formGroup]="reviewForm"  (submit)="saveReview()">
+               <table>
+                <tr>
+                   <th>Product Type</th>
+                   <td><select formControlName="type">
+                       <option *ngFor="let x of types">{{x}}</option>
+                      </select>
+                      </td>
+                   <td></td>
+                   </tr><br>
+                   <tr>
+                   <th>Product Name</th>
+                   <td><input type="text" formControlName="name"></td>
+                   <td>
+                          <div *ngIf='reviewForm.controls.name.hasError("required")'>
+                                  </div>
+                       <div *ngIf='reviewForm.controls.name.hasError("minlength")'>
+                                      Atleast Three Characters long</div>
+                   </td>
+                   </tr><br>
+                   <tr>
+                       <th>How is it??</th>
+                       <td><textarea rows=6 cols=50 formControlName="message">
+                           </textarea></td>
+                       <td>
+                              <div *ngIf='reviewForm.controls.message.hasError("required")'>
+                                      </div>
+                            <div *ngIf='reviewForm.controls.message.hasError("minlength")'>
+                                        Atleast 15 characters long</div>
+                       </td>
+                   </tr>
+                   <tr><td colspan="4" style="text-align:center">
+                          <button type="submit"  class="btn btn-primary" [disabled]="!reviewForm.valid">
+                                     Post Review</button>
+                      </td></tr>
+               </table>
+          </form>
+           <img src="http://localhost/rev.jpg">
+ </div>

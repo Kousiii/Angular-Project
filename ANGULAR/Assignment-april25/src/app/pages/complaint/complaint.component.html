@@ -1,0 +1,29 @@
+<div id="form"><h1 style="margin-bottom: 35px; text-align: center;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-weight: bold;">Send Us your Complaints</h1>
+
+    <div style="overflow: hidden;">
+        <div class="formbox">
+            <h5>First Name</h5>
+            <input type="text" [(ngModel)]="fname">
+        </div>
+        <div class="formbox">
+            <h5>Email</h5>
+            <input type="email" [(ngModel)]="email">
+        </div>
+        <div class="formbox">
+            <h5>Product</h5>
+            <input type="text" [(ngModel)]="product">
+        </div>
+        <div class="formbox">
+            <h5>Message</h5>
+            <textarea [(ngModel)]="message"></textarea>
+        </div>
+    </div>
+    <div class="alert alert-info" *ngIf="errors.length>0">
+        <ul >
+            <li *ngFor="let x of errors">{{x}}</li>
+        </ul>
+    </div>
+    <div style="margin-left:240px;"><button class="btn btn-secondary" (click)="submit()">Submit Enquiry</button></div>
+    </div>
+
+

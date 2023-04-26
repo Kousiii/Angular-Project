@@ -1,0 +1,19 @@
+
+    <div class="whole">
+        <div class="details">
+            <div class="image">
+                <img src="http://localhost/{{details.image}}" />
+            </div>
+            <div class="content">
+                <h2>PRODUCT: {{details.name}}</h2>
+                <h2>PRICE: {{details.price | currency:"INR"}}</h2>
+                <h2>{{details.type}}</h2>   
+            </div>
+            <div class="para">{{details.description}}</div>
+        </div>
+    </div>
+<div class="review">
+    <h1>Reviews loading...</h1>
+</div>
+<app-review-form></app-review-form>
+
