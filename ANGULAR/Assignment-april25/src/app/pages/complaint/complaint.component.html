@@ -1,29 +1,43 @@
 <div id="form"><h1 style="margin-bottom: 35px; text-align: center;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-weight: bold;">Send Us your Complaints</h1>
 
-    <div style="overflow: hidden;">
-        <div class="formbox">
-            <h5>First Name</h5>
-            <input type="text" [(ngModel)]="fname">
-        </div>
-        <div class="formbox">
-            <h5>Email</h5>
-            <input type="email" [(ngModel)]="email">
-        </div>
-        <div class="formbox">
-            <h5>Product</h5>
-            <input type="text" [(ngModel)]="product">
-        </div>
-        <div class="formbox">
-            <h5>Message</h5>
-            <textarea [(ngModel)]="message"></textarea>
-        </div>
-    </div>
+    <mat-form-field appearance="fill">
+        <mat-label>First Name</mat-label>
+        <input [(ngModel)]="fname" matInput>
+      </mat-form-field>
+      <br>
+      <mat-form-field appearance="fill">
+        <mat-label>Email</mat-label>
+        <input [(ngModel)]="email"matInput>
+      </mat-form-field>
+        <form class="example-form" >
+             <mat-form-field class="example-full-width" >
+            <mat-label>Product</mat-label>           
+            <input type="text"
+            [(ngModel)]="productname"
+            placeholder="Pick one"           
+            aria-label="Number"   
+            matInput 
+           [formControl]="myControl"     
+            [matAutocomplete]="auto"> 
+           <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+            <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+            {{option}}
+            </mat-option>
+            </mat-autocomplete>
+            </mat-form-field>
+        </form>
+        <mat-form-field appearance="fill">
+            <mat-label>Textarea</mat-label>
+            <textarea [(ngModel)]="message" matInput></textarea>
+          </mat-form-field>
+    
     <div class="alert alert-info" *ngIf="errors.length>0">
         <ul >
             <li *ngFor="let x of errors">{{x}}</li>
         </ul>
     </div>
-    <div style="margin-left:240px;"><button class="btn btn-secondary" (click)="submit()">Submit Enquiry</button></div>
+    <div style="margin-left:130px;"><button class="btn btn-secondary" (click)="submit()">Submit Enquiry</button></div>
     </div>
-
+    
+      
 

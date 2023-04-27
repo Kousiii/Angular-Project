@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ProductService } from 'src/app/services/product.service';
-
 @Component({
   selector: 'app-card-details',
   templateUrl: './card-details.component.html',
@@ -10,7 +9,13 @@ import { ProductService } from 'src/app/services/product.service';
 export class CardDetailsComponent {
   id:any;
   details:any;
+  reviews:any;
  constructor(private hs:ProductService,private ar:ActivatedRoute){
+  this.hs.getReviews().subscribe({
+    next:(data:any)=>this.reviews=data,
+    error:()=>this.reviews=[]
+  })
+  
     this.ar.params.subscribe(
       {
         next: (params)=>{ 

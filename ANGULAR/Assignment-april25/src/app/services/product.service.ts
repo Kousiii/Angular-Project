@@ -12,7 +12,9 @@ export class ProductService {
   getOrder():Observable<any> {
     return this.http.get("http://localhost:3000/products/")
   }
-
+  getReviews():Observable<any> {
+    return this.http.get("http://localhost:3000/reviews")
+  }
 
   getDetailsById(id: number): Observable<any> {
     return this.http.get("http://localhost:3000/products/" + id);

@@ -9,7 +9,8 @@ import { ReviewService } from 'src/app/services/review.service';
 })
 export class ReviewFormComponent {
   reviewForm:any;
-  types:string[]=["Electronics","Cosmetics","Books","Groceries"]
+  types:string[]=["Electronics","Cosmetics","Books","Groceries"];
+  nametypes:string[]=["Air Conditioner","Apple Iphone 13","Eye Shadow","Lipstick","Origano","Cheese Spread","Smart Tv","Mad About You","Maggie","The Wings of Fire","Airpods Pro","Charlotte's Web"]
          constructor(private fb:FormBuilder,private fs:ReviewService){
          this.reviewForm = this.fb.group({
             type:['Electronics'],

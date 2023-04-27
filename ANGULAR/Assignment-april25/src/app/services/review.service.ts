@@ -9,9 +9,7 @@ export class ReviewService {
   httpOptions:any;
   constructor(private http:HttpClient) { }
 
-  getReviews():Observable<any> {
-    return this.http.get("http://localhost:3000/reviews")
-  }
+  
 
   postReviews(obj:any):Observable<any>{
 

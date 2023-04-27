@@ -13,15 +13,13 @@
                    <td></td>
                    </tr><br>
                    <tr>
-                   <th>Product Name</th>
-                   <td><input type="text" formControlName="name"></td>
-                   <td>
-                          <div *ngIf='reviewForm.controls.name.hasError("required")'>
-                                  </div>
-                       <div *ngIf='reviewForm.controls.name.hasError("minlength")'>
-                                      Atleast Three Characters long</div>
-                   </td>
-                   </tr><br>
+                    <th>Product Name</th>
+                    <td><select formControlName="name">
+                        <option *ngFor="let x of nametypes">{{x}}</option>
+                       </select>
+                       </td>
+                    <td></td>
+                    </tr><br>
                    <tr>
                        <th>How is it??</th>
                        <td><textarea rows=6 cols=50 formControlName="message">
@@ -30,7 +28,7 @@
                               <div *ngIf='reviewForm.controls.message.hasError("required")'>
                                       </div>
                             <div *ngIf='reviewForm.controls.message.hasError("minlength")'>
-                                        Atleast 15 characters long</div>
+                                        Atleast 10 characters long</div>
                        </td>
                    </tr>
                    <tr><td colspan="4" style="text-align:center">
